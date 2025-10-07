@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # imi-node-backend
 
 This documentation provides setup and usage instructions for the **imi-node-backend** project.
@@ -81,3 +82,6 @@ AWS_RDS_POSTGRES_PASSWORD=
 - ✅ **Migration & Seeder Support** — Manage schema and initial data using Sequelize CLI.
 
 ---
+=======
+# node_api_structure
+>>>>>>> e1523eb5915850bb4e3747a17ed8816a9f950994
