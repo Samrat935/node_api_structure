@@ -1,0 +1,36 @@
+{
+    "compilerOptions": {
+      "target": "es6",
+      "module": "commonjs",
+      "outDir": "./dist",
+      "rootDir": "./",          // Set rootDir to the project root to include both src and models
+      "esModuleInterop": true,
+      "noImplicitAny": false,
+      "skipLibCheck": true,
+      "strict": false,
+      "baseUrl": "./",
+      "typeRoots": [
+        "./node_modules/@types",
+        "./types"
+      ],
+      "paths": {
+        "@models/*": ["models/*"],
+        "@src/*": ["src/*"],
+        "@types/*": ["types/*"]
+      },
+      "types": [
+            "node",
+            "pg",
+            "jest" // Add this line
+      ]
+    },
+    "include": [
+      "src/**/*.ts",
+      "models/**/*.ts",
+      "types/**/*.d.ts",
+      "src/__tests__/**/*.ts",
+      "templates/**/*.html" 
+    ],
+    "exclude": ["node_modules", "dist"]
+  }
+  

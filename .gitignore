@@ -1,0 +1,14 @@
+# Build and dependency directories
+dist/
+node_modules/
+
+# Logs
+logs/
+*.log
+
+# Dependency lock files
+package-lock.json
+yarn.lock
+
+# Environment files
+#.env*
